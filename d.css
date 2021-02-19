@@ -1,3 +1,4 @@
+/* remove default padding and margin fro the web page */
 body {
   padding: 0;
   margin: 0;
@@ -8,6 +9,7 @@ body {
   color: #eef2f9;
   background-color: #0a6154;
   font-size: 17px;
+  /* padding: top right bottom left */
   padding: 16px 48px 0 48px;
 }
 
@@ -17,6 +19,7 @@ h1 {
 }
 
 .topheader {
+  /* flex tutorial: https://css-tricks.com/snippets/css/a-guide-to-flexbox/ */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,6 +53,7 @@ h1 {
 }
 
 .message img {
+  /* this makes the image round */
   border-radius: 50%;
   padding-right: 20px;
 }
