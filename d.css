@@ -1,26 +1,55 @@
-
+body {
+  padding: 0;
+  margin: 0;
+  font-size: 100%;
+}
 
 .heading {
-    color: rgb(245, 245, 231);
-    background-color: rgb(20, 150, 20);
-    
-    margin-top: 10px;
-    
-    font-size: 17px ;
-    width: 1350px;
-    
-    padding-top: 8px;
-    
-    
-}
-.a{
-    display: flex;
+  color: #eef2f9;
+  background-color: #0a6154;
+  font-size: 17px;
+  padding: 16px 48px 0 48px;
 }
 
-.b {
-    text-align: center;
-    color: rgb(92, 88, 88);
-    font-size: 25px;
+h1 {
+  padding: 0;
+  margin: 0;
 }
 
-    
+.topheader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  font-size: 11.2px;
+  padding-top: 16px;
+}
+
+.archive {
+  text-align: center;
+  color: rgb(92, 88, 88);
+  font-size: 25px;
+  padding: 16px 28px;
+}
+
+.message {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 32px 48px;
+  border: 1px solid black;
+}
+
+.message h1 {
+  font-size: 22px;
+  font-weight: 400px;
+}
+
+.message img {
+  border-radius: 50%;
+  padding-right: 20px;
+}
